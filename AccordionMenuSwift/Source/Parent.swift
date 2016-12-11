@@ -23,7 +23,7 @@ public enum State {
  - One:     One cell expanded at time.
  - Several: Several cells expanded at time.
  */
-public enum NumberOfCellExpanded {
+public enum CellsExpanded {
     case one
     case several
 }
