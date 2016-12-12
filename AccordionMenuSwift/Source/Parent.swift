@@ -31,21 +31,20 @@ public enum CellsExpanded {
 /**
  *  The Parent struct of the data source.
  */
-public struct Parent {
+public struct Parent<P, C> {
     
     /// State of the cell
     var state: State
     
     /// The childs of the cell
-    var childs: [String]
+    var childs: [C]
     
-    /// The title for the cell.
-    var title: String
+    var element: P
     
-    public init(state: State, childs: [String], title: String) {
+    public init(state: State, childs: [C], element: P) {
         self.state = state
         self.childs = childs
-        self.title = title
+        self.element = element
     }
 }
 
