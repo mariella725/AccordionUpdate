@@ -12,6 +12,7 @@
 		A31C4D211DFA66F900945E2E /* AccordionMenuSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = A31C4D131DFA66F900945E2E /* AccordionMenuSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A31C4D2D1DFA678B00945E2E /* AccordionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31C4D2B1DFA678B00945E2E /* AccordionMenu.swift */; };
 		A31C4D2E1DFA678B00945E2E /* Parent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31C4D2C1DFA678B00945E2E /* Parent.swift */; };
+		A3328AB21DFDEE84005C7140 /* ArrayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3328AB11DFDEE84005C7140 /* ArrayDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		A31C4D201DFA66F900945E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A31C4D2B1DFA678B00945E2E /* AccordionMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccordionMenu.swift; sourceTree = "<group>"; };
 		A31C4D2C1DFA678B00945E2E /* Parent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parent.swift; sourceTree = "<group>"; };
+		A3328AB11DFDEE84005C7140 /* ArrayDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			children = (
 				A31C4D2B1DFA678B00945E2E /* AccordionMenu.swift */,
 				A31C4D2C1DFA678B00945E2E /* Parent.swift */,
+				A3328AB11DFDEE84005C7140 /* ArrayDataSource.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A31C4D2D1DFA678B00945E2E /* AccordionMenu.swift in Sources */,
+				A3328AB21DFDEE84005C7140 /* ArrayDataSource.swift in Sources */,
 				A31C4D2E1DFA678B00945E2E /* Parent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
