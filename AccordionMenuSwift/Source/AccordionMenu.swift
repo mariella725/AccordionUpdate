@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class AccordionTableViewController: UITableViewController {
+open class AccordionTableViewController: UITableViewController {
     
     /// The number of elements in the data source
     open var total = 0
